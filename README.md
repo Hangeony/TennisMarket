@@ -2,13 +2,10 @@
 
 ### 🤔 고민 사항
 
-`orderlist` 테이블에는 기본적으로 `productId`, `orderDate`만 저장되고 있었지만,  
-주문 상세 페이지에서 **상품명, 설명, 가격까지 함께 보여주기 위해**  
-어떻게 데이터를 설계할지 고민하게 되었습니다.
-
+`강의에서는 `orderlist` 테이블에 `productId`와 `orderDate`만 저장하고 있었지만,  
+주문 상세 페이지에서 **상품명, 설명, 가격까지 함께 보여주기 위해** 데이터를 업그레이드하고자 했습니다.  
 기존 데이터를 유지하면서 **테이블 구조를 유연하게 확장할 수 있는 방법**을 찾던 중,  
 **DDL (Data Definition Language)**의 개념과 사용법을 학습하게 되었습니다.
-
 
 ![readme](https://github.com/user-attachments/assets/e9400c10-6547-4e8d-ade2-9c066523b42e)
 
