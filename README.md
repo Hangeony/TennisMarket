@@ -4,7 +4,9 @@
 
 `orderlist` 테이블에 `productId`, `orderDate`만 저장하고 있었지만, 실제로는 **상품명, 설명, 가격도 함께 저장**해서 주문 상세에 바로 보여주고 싶었음.
 
-이를 위해 테이블 구조를 변경하지 않고는 원하는 데이터를 저장할 수 없었고, **DDL(Data Definition Language)**의 존재와 사용법을 확인하게 됨.
+이를 위해 테이블 구조를 변경하지 않고는 원하는 데이터를 저장할 수 없었고,
+기존 데이터를 유지하면서 컬럼 추가, 삭제, 데이터 타입 변경 등의 테이블 구조 수정이 가능한
+**DDL(Data Definition Language)**의 개념과 사용법을 학습하게 되었다.
 
 
 ![readme](https://github.com/user-attachments/assets/e9400c10-6547-4e8d-ade2-9c066523b42e)
