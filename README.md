@@ -53,6 +53,7 @@ if (productId == '1') {
 3. 콜백 함수 위치 수정 → 쿼리 결과 정상 출력
 
 ```
+const orderDate = new Date().toLocaleDateString();
 let name, description, price;
 
 if (productId == '1') {
