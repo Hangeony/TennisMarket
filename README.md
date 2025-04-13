@@ -34,7 +34,7 @@ ADD COLUMN price INT;
 
 
 ### ❌ 나의 실수
-```
+```js
 if (productId == '1') {
   mariadb.query("INSERT INTO orderlist VALUES (" + productId + ", '" + orderDate + "', 'Red Racket', 'Hot Red!', + '30000');",
 }
@@ -55,7 +55,7 @@ if (productId == '1') {
 2. SQL 쿼리에 placeholder(`?`) 적용 → 가독성 + 보안 향상
 3. 콜백 함수 위치 수정 → 쿼리 결과 정상 출력
 
-```
+```js
 const orderDate = new Date().toLocaleDateString();
 let name, description, price;
 
