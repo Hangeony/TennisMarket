@@ -16,7 +16,7 @@
 ```sql
 ALTER TABLE orderlist
 ADD COLUMN name VARCHAR(30),
-ADD COLUMN description VARCHAR(60),
+ADD COLUMN description VARCHAR(100),
 ADD COLUMN price INT;
 ```
 
