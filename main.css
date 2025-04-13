@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.txtWelcome{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cardGrid{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    text-align: center;
+}
+
+.cardImg{
+    width: 300px;
+    height: 300px;
+}
+
+.cardTitle{
+    font-size: 20px;
+}
+
+.cardBtn{
+    font-size: 25px;
+    width: 150px;
+    height: 35px;
+}
